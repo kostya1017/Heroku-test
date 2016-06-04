@@ -3,7 +3,7 @@
 var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
-  response.send('Hello! Thigggs is kostya from Heroku. ');
+  response.send('Hello! fixed is kostya from Heroku. ');
 });
 
 var port = process.env.PORT || 5000;
